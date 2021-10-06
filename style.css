@@ -1,0 +1,104 @@
+/*centralização do caixa com os botão e ao contado */
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+/*estilo do titulo do projeto*/
+    h1 {
+    font-family: monospace;
+    text-align: center;
+    color: #0000FF;
+    font-size: 4.0em;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+    webkit-text-stroke-width: 2px;
+    webkit-text-stroke-color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+  
+}
+
+
+/*estilo do titulo no caso são os numero*/
+h2{
+    font-family: fantasy;
+    text-align: center;
+    color: #0000FF;
+    font-size: 3.5em;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+/*puxando a imagem para tela */
+    body {
+        background: url(images/2.png) no-repeat;
+    }
+
+    
+      .max-width2 {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .max-width3 {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+    .max-width4 {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 1%;
+        background-color: ;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+    }
+
+
+ 
+/*Estilo do botão*/
+    button {
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-family: 'Segoe UI';
+        color: #FFFFFF;
+        font-size: 1.5em;
+        transition: all .5s;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+/*cor dos botão ao passar o mouse*/
+    button:hover {
+        background-color: #000000;
+    }
+/*cor do botão ao click*/
+    button:active {
+        background-color: rgb(255, 255, 255);
+    }
+/*cor do botão iniciar*/
+    .iniciar {
+        background-color: #0000FF;
+    }
+/*cor do botão pausar*/
+    .pausar {
+        background-color: #0000FF;
+    }
+/*cor do botão zerar*/
+    .zerar {
+        background-color: #0000FF;
+    }
